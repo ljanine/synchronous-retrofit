@@ -9,6 +9,7 @@ public class GiphyService {
 	private RestAdapter adapter;
 	private Service service;
 
+
 	public interface Service{
 		@GET("/v1/gifs/search")
 		GiphyResponse search(
